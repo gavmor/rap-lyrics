@@ -67,33 +67,33 @@ Apply the specific mechanics demanded by the style:
 6. **Vowel Bending / Slant Rhymes (Eminem Style):** Manipulate pronunciation to force near-rhymes into sonic alignment across stressed beats (e.g., *orange / door hinge / storage / porridge*).
 7. **Metric Displacement (André Style):** Shift rhyme placements away from beats 2 and 4 onto the offbeats (`2-&`, `3-a`).
 8. **Prosodic Scansion & Natural Stress Invariant:** Ensure every word's natural spoken accent aligns with musical downbeats and syncopations. When crossing the bar line, never split on an unstressed reduced prefix (avoid *con- / -fined*); only split compound words with full vowel weight (*in- / -side*, *night- / -time*) or wrap complete phrases (*pen starts to / [Beat 1] WRITE*). In standard boom-bap (85–95 BPM), budget 10–13 syllables per bar to let the snare drum breathe; avoid 5-syllable polysyllables (*subdivisions*) that crowd the pocket.
+9. **Jargon & Acronym Phonetic Expansion Invariant (The "Bee-mats" Rule):** Technical shorthand, gaming slang, and military acronyms (e.g. *Bmats*, *Rmats*, *RPG*, *FMC*) MUST be rendered in phonetic spelling (e.g. *Bee-mats*, *Are-mats*, *R-P-G*) to prevent neural vocoders from emitting mangled consonant clusters or spelling out letters awkwardly. Assign each term its exact metrical foot (e.g., *"Bee-mats"* is a trochee `1 0`: *“BEE-mats in the bed, DIE-sel in the tank”*).
+10. **Metrical Foot Discipline & Clash Prevention:** Consciously govern whether lines are driven by an **iambic motor** ($\cup$ —, upbeat pickup) or a **trochaic motor** (— $\cup$, downbeat attack). Prevent spondaic stress clashes (`0 1 1`) by avoiding dictionary citation compounds (*six-TEEN*) immediately before stressed nouns (*DOTS*); use trochees or intervening unstressed words (*“all the dots”*, *“the entire grid”*).
 
 *For full formulas and phonetic examples, read `references/techniques.md`.*
 *For academic foundations, dual-meter poetics, and phonetic research (Bradley, Edwards, Hirjee & Brown, Malmi), read `references/prior_art_and_theory.md`.*
 
 ---
 
-### Stage 4: Output Format
+### Stage 4: Output Formats
 
-Always present the completed verse with professional lyrical presentation and musical deconstruction:
+Support both a single-verse showcase (8–16 bars) and full-length multi-section song architectures (~60–68 bars, 3:00–3:30 min):
 
+#### Full Song Template (Radio / Album Structure)
 ```markdown
-# [Title / Track Name]
+# [Track Title]
 **Style Profile:** [Artist Name or Hybrid]
 **Tempo:** [e.g., 90 BPM | 4/4 Time]
-**Signature Techniques:** [e.g., Crossing the bar line, daisy-chaining, 4-syllable multis]
+**Dominant Metrical Foot:** [e.g., Iambic swing with trochaic chorus symmetry]
+**Phonetic Jargon Expansions:** [e.g., Bmats -> Bee-mats (trochee: 1 0)]
 
-## The Verse
-[Bar 01] Line text with (rhyme syllables) highlighted...
-[Bar 02] Line text crossing the bar line...
-...
-[Bar 16] Concluding punchline or resolution.
-
-## Flow & Technical Deconstruction
-- **Rhyme Scheme & Vowel Families:** Identify the primary vowel sounds ([A], [B], [C]) and multisyllabic clusters.
-- **Bar Line Crossings:** Quote specific lines where enjambment lands on Beat 1 of the following bar.
-- **Rhythmic Motive / Syncopation:** Detail how the rhythmic cadence was structured and varied.
-- **Stylistic Signatures:** Explain how the delivery embodies the chosen artist's philosophy, vocabulary, and flow pocket.
+[Intro] (4 bars: setting the scene, radio atmosphere, rhythm establishing)
+[Verse 1] (16 bars: core narrative, stockpile/conflict establishment, 16-dot grid, Beat 1 enjambment)
+[Chorus] (8 bars: anthemic refrain, symmetrical hemistichs like "Bee-mats in the bed, diesel in the tank")
+[Verse 2] (16 bars: escalating action, technical multisyllabic matrices and holorime showcases)
+[Chorus] (8 bars: anthemic refrain)
+[Verse 3 / Climax] (12-16 bars: river/combat gauntlet, tempo acceleration or gear shift)
+[Outro] (4 bars: formal military/thematic signoff and musical fadeout)
 ```
 
 ---
