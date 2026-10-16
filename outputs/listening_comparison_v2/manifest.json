@@ -1,0 +1,176 @@
+{
+  "schema": "yue2-listening-bundle-v1",
+  "cases": [
+    {
+      "label": "rakim_v2",
+      "directory": "case-001",
+      "issues": [
+        "Native configuration is unavailable; decoder identity is incomplete",
+        "Native result does not report complete status",
+        "Missing audio.flac/audio.wav; no player available"
+      ],
+      "files": {
+        "request.json": {
+          "sha256": "4061e249bd7676d3304a603a20f2df1bcfe611e76011fe1b4f299add54e84459",
+          "bytes": 821
+        },
+        "result.json": {
+          "sha256": "e75fabfba2c8cef974d552c30585ec9f139b05d15ba57a665ebfe16e78aaccf0",
+          "bytes": 88
+        }
+      },
+      "native_artifact_checks": {
+        "request.json": "not listed",
+        "result.json": "not listed"
+      },
+      "audio": null,
+      "request": {
+        "title": "The Midnight Manuscript (v2 Fixed Scansion)",
+        "artist": "Rakim",
+        "style": "Classic 90s East Coast boom-bap, steady 90 BPM drum beat, punchy kick and snare on 2 and 4, smooth upright bassline, subtle jazz horn sample, clear authoritative male hip-hop vocals, relaxed flow locked to the beat, Rakim style.",
+        "lyrics": "[Verse]\nI draft the craft in the dark on the page\nAn architect of intellect upon the stage\nI walk the midnight mist where the silence is deep\nAnd sharpen surgical designs while citizens sleep\nMy mental blueprint cannot stay or remain in-\n-SIDE; it hits the downbeat as I step in my stride\nI pace the empty blocks with a disciplined soul\nAnd keep the sixteen dots in complete control\n",
+        "model": "yue2_3b_int8_convrot.safetensors",
+        "backend": "comfyui-api",
+        "seed": 42
+      },
+      "decoder_release": "unknown",
+      "weights": {},
+      "identity": "unknown",
+      "loader": {},
+      "native_status": "success",
+      "truncated": "unknown",
+      "audio_seconds": null,
+      "sample_rate": null,
+      "validation_status": "unknown",
+      "failure": {},
+      "abc_check": {},
+      "recorded_warnings": {},
+      "status": "needs_review"
+    },
+    {
+      "label": "mf_doom_v2",
+      "directory": "case-002",
+      "issues": [
+        "Native configuration is unavailable; decoder identity is incomplete",
+        "Native result does not report complete status",
+        "Missing audio.flac/audio.wav; no player available"
+      ],
+      "files": {
+        "request.json": {
+          "sha256": "64d48cc954cc3c304f82562daf08d8859adf6c623d56d1d7241d766e5247b813",
+          "bytes": 786
+        },
+        "result.json": {
+          "sha256": "e75fabfba2c8cef974d552c30585ec9f139b05d15ba57a665ebfe16e78aaccf0",
+          "bytes": 88
+        }
+      },
+      "native_artifact_checks": {
+        "request.json": "not listed",
+        "result.json": "not listed"
+      },
+      "audio": null,
+      "request": {
+        "title": "Mad Science (v2 On-Beat Boom-Bap)",
+        "artist": "MF DOOM",
+        "style": "Underground boom-bap hip-hop, 88 BPM, heavy head-nod drums, steady crisp snare on beats 2 and 4, warm dusty jazz piano loop, deep sub bass, raspy masked male emcee, calm conversational flow, rhyming locked tightly on the beat, MF DOOM style.",
+        "lyrics": "[Verse]\nHunched in the cellar like a dungeon lurker\nCooking secret venom on a Bunsen burner\nDusty iron mask and a steady grin\nPouring liquid zinc from the bottle in\nDrop toxic liquid in, turn the cold dial\nPop lock-pick, wicked grin, burn the old file\nCold smile, no denial, make the villain choke\nVanished in a puffy cloud of steam and smoke\n",
+        "model": "yue2_3b_int8_convrot.safetensors",
+        "backend": "comfyui-api",
+        "seed": 99
+      },
+      "decoder_release": "unknown",
+      "weights": {},
+      "identity": "unknown",
+      "loader": {},
+      "native_status": "success",
+      "truncated": "unknown",
+      "audio_seconds": null,
+      "sample_rate": null,
+      "validation_status": "unknown",
+      "failure": {},
+      "abc_check": {},
+      "recorded_warnings": {},
+      "status": "needs_review"
+    },
+    {
+      "label": "kendrick_v2",
+      "directory": "case-003",
+      "issues": [
+        "Native configuration is unavailable; decoder identity is incomplete",
+        "Native result does not report complete status",
+        "Missing audio.flac/audio.wav; no player available"
+      ],
+      "files": {
+        "request.json": {
+          "sha256": "37d3dfb6ae460e39072fcad9c36833a01795f63f2eafa3cae9d05261ad0a4782",
+          "bytes": 824
+        },
+        "result.json": {
+          "sha256": "e75fabfba2c8cef974d552c30585ec9f139b05d15ba57a665ebfe16e78aaccf0",
+          "bytes": 88
+        }
+      },
+      "native_artifact_checks": {
+        "request.json": "not listed",
+        "result.json": "not listed"
+      },
+      "audio": null,
+      "request": {
+        "title": "Sovereign Mortus (v2 Tight Motivic Lock)",
+        "artist": "Kendrick Lamar",
+        "style": "Rigamortus style jazz rap, 92 BPM, live acoustic horn section, sharp marching snare drum on beat 2 and 4, punchy kick, walking upright bass, rhythmic vocal stabs, tight breathless delivery locked precisely to the drum groove, Kendrick Lamar style.",
+        "lyrics": "[Verse]\nBreak the grip, rip the script, hit the lock\nPick the lock, redline on the city block\nCarve in stone, flesh and bone, take the throne\nBear the weight, hold the crown on my own\nNow I decimate the track till they dead and gone\nLeave a veteran in shock like a skeleton\nKnock 'em off the pedestal, raw like an animal\nCannibal with a flow like a cannonball\n",
+        "model": "yue2_3b_int8_convrot.safetensors",
+        "backend": "comfyui-api",
+        "seed": 104
+      },
+      "decoder_release": "unknown",
+      "weights": {},
+      "identity": "unknown",
+      "loader": {},
+      "native_status": "success",
+      "truncated": "unknown",
+      "audio_seconds": null,
+      "sample_rate": null,
+      "validation_status": "unknown",
+      "failure": {},
+      "abc_check": {},
+      "recorded_warnings": {},
+      "status": "needs_review"
+    }
+  ],
+  "files": {
+    "case-001/request.json": {
+      "sha256": "4061e249bd7676d3304a603a20f2df1bcfe611e76011fe1b4f299add54e84459",
+      "bytes": 821
+    },
+    "case-001/result.json": {
+      "sha256": "e75fabfba2c8cef974d552c30585ec9f139b05d15ba57a665ebfe16e78aaccf0",
+      "bytes": 88
+    },
+    "case-002/request.json": {
+      "sha256": "64d48cc954cc3c304f82562daf08d8859adf6c623d56d1d7241d766e5247b813",
+      "bytes": 786
+    },
+    "case-002/result.json": {
+      "sha256": "e75fabfba2c8cef974d552c30585ec9f139b05d15ba57a665ebfe16e78aaccf0",
+      "bytes": 88
+    },
+    "case-003/request.json": {
+      "sha256": "37d3dfb6ae460e39072fcad9c36833a01795f63f2eafa3cae9d05261ad0a4782",
+      "bytes": 824
+    },
+    "case-003/result.json": {
+      "sha256": "e75fabfba2c8cef974d552c30585ec9f139b05d15ba57a665ebfe16e78aaccf0",
+      "bytes": 88
+    },
+    "index.html": {
+      "sha256": "7e290a733f4cafe6f16de22113636b95e7860757370cc7c419a921e1ea9e7390",
+      "bytes": 9749
+    }
+  },
+  "hash_scope": "All copied files and index.html; manifest.json excludes its own recursive hash",
+  "network_access": false,
+  "weights_or_latents_copied": false
+}

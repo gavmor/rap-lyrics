@@ -1,0 +1,8 @@
+{
+  "title": "The Midnight Blueprint (Qwen 3.8 27B Verse)",
+  "artist": "Qwen 3.8 27B (Rakim Style)",
+  "style": "Classic 90s East Coast boom-bap, steady 90 BPM drum beat, punchy kick and snare on 2 and 4, smooth upright bassline, subtle jazz horn sample, clear authoritative male hip-hop vocals, relaxed flow locked to the beat, Rakim style.",
+  "lyrics": "[Verse]\nMidnight on the streets, the streetlights hum a minor key\nConcrete underfoot, I\u2019m a ghost with the poetry\nSodium glow, cold breath, the city keeps its secrets\nEvery alley is a page, I write the nights in letters\nNo clock, no crowd, just the rhythm in my footsteps\nMoonlight on the pavement, thoughts that never stop us\nWalk through the silence, let the silence do the talking\nMidnight understands the words before I\u2019m speaking\n",
+  "model": "yue2_3b_int8_convrot.safetensors",
+  "backend": "comfyui-api"
+}

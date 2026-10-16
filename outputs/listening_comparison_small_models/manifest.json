@@ -1,0 +1,173 @@
+{
+  "schema": "yue2-listening-bundle-v1",
+  "cases": [
+    {
+      "label": "llama_rakim",
+      "directory": "case-001",
+      "issues": [
+        "Native configuration is unavailable; decoder identity is incomplete",
+        "Native result does not report complete status",
+        "Missing audio.flac/audio.wav; no player available"
+      ],
+      "files": {
+        "request.json": {
+          "sha256": "a9132343f284e2b222c8969b06b14d701cbbea8deff5fc38b0f9f02ccfda14bf",
+          "bytes": 889
+        },
+        "result.json": {
+          "sha256": "e75fabfba2c8cef974d552c30585ec9f139b05d15ba57a665ebfe16e78aaccf0",
+          "bytes": 88
+        }
+      },
+      "native_artifact_checks": {
+        "request.json": "not listed",
+        "result.json": "not listed"
+      },
+      "audio": null,
+      "request": {
+        "title": "Llama-3.2-1B: Crossing the Barline",
+        "artist": "Llama 3.2 1B (Rakim Style)",
+        "style": "Classic 90s East Coast boom-bap, steady 90 BPM drum beat, punchy kick and snare on 2 and 4, smooth upright bassline, subtle jazz horn sample, clear authoritative male hip-hop vocals, relaxed flow locked to the beat, Rakim style.",
+        "lyrics": "[Verse]\nI'm walking down midnight streets, where the city's alive\nThe neon lights reflect, on my black and grey ride\nI'm the king of the night, with my thoughts on my mind\nThe darkness surrounds me, but I'm feeling so divine\nI'm crossing the barline, where the street meets the sea\nMy rhymes are like waves, crashing on the concrete spree\nI'm the master of the flow, like a phantom in the night\nMy verse is a journey, through the city's twisted delight\n",
+        "model": "yue2_3b_int8_convrot.safetensors",
+        "backend": "comfyui-api"
+      },
+      "decoder_release": "unknown",
+      "weights": {},
+      "identity": "unknown",
+      "loader": {},
+      "native_status": "success",
+      "truncated": "unknown",
+      "audio_seconds": null,
+      "sample_rate": null,
+      "validation_status": "unknown",
+      "failure": {},
+      "abc_check": {},
+      "recorded_warnings": {},
+      "status": "needs_review"
+    },
+    {
+      "label": "llama_doom",
+      "directory": "case-002",
+      "issues": [
+        "Native configuration is unavailable; decoder identity is incomplete",
+        "Native result does not report complete status",
+        "Missing audio.flac/audio.wav; no player available"
+      ],
+      "files": {
+        "request.json": {
+          "sha256": "02c70de60fac4088b025707ce1bb8fbbe7e49bcdf292442a067de5c462353cf6",
+          "bytes": 887
+        },
+        "result.json": {
+          "sha256": "e75fabfba2c8cef974d552c30585ec9f139b05d15ba57a665ebfe16e78aaccf0",
+          "bytes": 88
+        }
+      },
+      "native_artifact_checks": {
+        "request.json": "not listed",
+        "result.json": "not listed"
+      },
+      "audio": null,
+      "request": {
+        "title": "Llama-3.2-1B: Emperor of Holorime",
+        "artist": "Llama 3.2 1B (MF DOOM Style)",
+        "style": "Underground boom-bap hip-hop, 88 BPM, heavy head-nod drums, steady crisp snare on beats 2 and 4, warm dusty jazz piano loop, deep sub bass, raspy masked male emcee, calm conversational flow, rhyming locked tightly on the beat, MF DOOM style.",
+        "lyrics": "[Verse]\nI'm the Emperor of Holorime, the sultan of despair\nMy throne is made of shattered dreams, my kingdom's a mess in the air\nExpectation's my accomplice, it's my best friend and foe\nWe're colliding in a kaleidoscope of woe\nI'm painting masterpieces with broken glass and tears\nMy art's a commentary on the futility of fears\nI'm a conductor of chaos, orchestrating the fall\nExpectation's the melody, I'm the maestro of despair's call\n",
+        "model": "yue2_3b_int8_convrot.safetensors",
+        "backend": "comfyui-api"
+      },
+      "decoder_release": "unknown",
+      "weights": {},
+      "identity": "unknown",
+      "loader": {},
+      "native_status": "success",
+      "truncated": "unknown",
+      "audio_seconds": null,
+      "sample_rate": null,
+      "validation_status": "unknown",
+      "failure": {},
+      "abc_check": {},
+      "recorded_warnings": {},
+      "status": "needs_review"
+    },
+    {
+      "label": "qwen_rakim",
+      "directory": "case-003",
+      "issues": [
+        "Native configuration is unavailable; decoder identity is incomplete",
+        "Native result does not report complete status",
+        "Missing audio.flac/audio.wav; no player available"
+      ],
+      "files": {
+        "request.json": {
+          "sha256": "607dd115e04546f7b9b0075fbae1cebb93775ad0db756c1b54e4c0bc1080b77c",
+          "bytes": 778
+        },
+        "result.json": {
+          "sha256": "e75fabfba2c8cef974d552c30585ec9f139b05d15ba57a665ebfe16e78aaccf0",
+          "bytes": 88
+        }
+      },
+      "native_artifact_checks": {
+        "request.json": "not listed",
+        "result.json": "not listed"
+      },
+      "audio": null,
+      "request": {
+        "title": "Qwen-3-VL-2B: King of the Streets",
+        "artist": "Qwen 3 VL 2B (Rakim Style)",
+        "style": "Classic 90s East Coast boom-bap, steady 90 BPM drum beat, punchy kick and snare on 2 and 4, smooth upright bassline, subtle jazz horn sample, clear authoritative male hip-hop vocals, relaxed flow locked to the beat, Rakim style.",
+        "lyrics": "[Verse]\nMidnight streets of the city, where lights are bright\nRap culture is rising, but it's hard to keep up\nMidnight streets, the best streets to be\nRakim, king of the streets\nThis is the rhythm, we go on\nRakim in the streets, he's a king\nMidnight streets of the city, where lights are bright\nRap culture is rising, and it's hard to keep up\n",
+        "model": "yue2_3b_int8_convrot.safetensors",
+        "backend": "comfyui-api"
+      },
+      "decoder_release": "unknown",
+      "weights": {},
+      "identity": "unknown",
+      "loader": {},
+      "native_status": "success",
+      "truncated": "unknown",
+      "audio_seconds": null,
+      "sample_rate": null,
+      "validation_status": "unknown",
+      "failure": {},
+      "abc_check": {},
+      "recorded_warnings": {},
+      "status": "needs_review"
+    }
+  ],
+  "files": {
+    "case-001/request.json": {
+      "sha256": "a9132343f284e2b222c8969b06b14d701cbbea8deff5fc38b0f9f02ccfda14bf",
+      "bytes": 889
+    },
+    "case-001/result.json": {
+      "sha256": "e75fabfba2c8cef974d552c30585ec9f139b05d15ba57a665ebfe16e78aaccf0",
+      "bytes": 88
+    },
+    "case-002/request.json": {
+      "sha256": "02c70de60fac4088b025707ce1bb8fbbe7e49bcdf292442a067de5c462353cf6",
+      "bytes": 887
+    },
+    "case-002/result.json": {
+      "sha256": "e75fabfba2c8cef974d552c30585ec9f139b05d15ba57a665ebfe16e78aaccf0",
+      "bytes": 88
+    },
+    "case-003/request.json": {
+      "sha256": "607dd115e04546f7b9b0075fbae1cebb93775ad0db756c1b54e4c0bc1080b77c",
+      "bytes": 778
+    },
+    "case-003/result.json": {
+      "sha256": "e75fabfba2c8cef974d552c30585ec9f139b05d15ba57a665ebfe16e78aaccf0",
+      "bytes": 88
+    },
+    "index.html": {
+      "sha256": "bc70d6dea57a4c5bbbd58c8180d96d1e7a23678b77c7c8ceae98f0b79af4d3d6",
+      "bytes": 10186
+    }
+  },
+  "hash_scope": "All copied files and index.html; manifest.json excludes its own recursive hash",
+  "network_access": false,
+  "weights_or_latents_copied": false
+}

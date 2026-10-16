@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; media-src 'self' file:; base-uri 'none'; form-action 'none'">
+<title>YuE2 listening comparison</title><style>
+body{font:16px/1.5 system-ui,sans-serif;max-width:1100px;margin:36px auto;padding:0 20px;background:#f6f7f9;color:#17212b}
+article{background:white;border:1px solid #d7dee7;border-radius:12px;padding:24px;margin:24px 0}
+h1,h2,h3{line-height:1.2}h2{margin-top:0}audio{width:100%}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.55 ui-monospace,monospace}
+dt{font-weight:650}dd{margin:0 0 10px;overflow-wrap:anywhere}details{border-top:1px solid #d7dee7;padding:12px 0}summary{cursor:pointer;font-weight:600}
+a{color:#174faf}.warning{color:#842b19}.status{font-weight:700}.note{color:#475569}
+</style></head><body><h1>YuE2 listening comparison</h1>
+<p class="note">Local listening bundle. Prompts, lyrics and available score/metadata are copied below.
+Model and decoder signatures identify the recorded generation; no model weights or acoustic latents are included.
+Integrity checks concern copied artifacts only, not musical quality, codec decoding, or a complete regeneration audit.
+Use the download link if your browser does not play the original audio format.</p>
+<article><h2>rakim_v2</h2><p class="status">needs_review</p>
+<p class="warning">No verified player is available for this case.</p>
+<ul class="warning"><li>Native configuration is unavailable; decoder identity is incomplete</li><li>Native result does not report complete status</li><li>Missing audio.flac/audio.wav; no player available</li></ul>
+<dl><dt>Mode</dt><dd>unknown</dd><dt>Seed</dt><dd>42</dd><dt>Decoder release</dt><dd>unknown</dd><dt>Native status</dt><dd>success</dd><dt>Truncated</dt><dd>unknown</dd><dt>Recorded duration (seconds)</dt><dd>null</dd><dt>Sample rate</dt><dd>null</dd><dt>Runtime validation status</dt><dd>unknown</dd><dt>Result identity</dt><dd>unknown</dd></dl>
+<h3>Style prompt</h3><pre>Classic 90s East Coast boom-bap, steady 90 BPM drum beat, punchy kick and snare on 2 and 4, smooth upright bassline, subtle jazz horn sample, clear authoritative male hip-hop vocals, relaxed flow locked to the beat, Rakim style.</pre>
+<h3>Lyrics</h3><pre>[Verse]
+I draft the craft in the dark on the page
+An architect of intellect upon the stage
+I walk the midnight mist where the silence is deep
+And sharpen surgical designs while citizens sleep
+My mental blueprint cannot stay or remain in-
+-SIDE; it hits the downbeat as I step in my stride
+I pace the empty blocks with a disciplined soul
+And keep the sixteen dots in complete control
+</pre>
+<details><summary>Artifact integrity checks</summary><pre>{
+  &quot;request.json&quot;: &quot;not listed&quot;,
+  &quot;result.json&quot;: &quot;not listed&quot;
+}</pre></details>
+<details><summary>Full exact request</summary><pre>{
+  &quot;title&quot;: &quot;The Midnight Manuscript (v2 Fixed Scansion)&quot;,
+  &quot;artist&quot;: &quot;Rakim&quot;,
+  &quot;style&quot;: &quot;Classic 90s East Coast boom-bap, steady 90 BPM drum beat, punchy kick and snare on 2 and 4, smooth upright bassline, subtle jazz horn sample, clear authoritative male hip-hop vocals, relaxed flow locked to the beat, Rakim style.&quot;,
+  &quot;lyrics&quot;: &quot;[Verse]\nI draft the craft in the dark on the page\nAn architect of intellect upon the stage\nI walk the midnight mist where the silence is deep\nAnd sharpen surgical designs while citizens sleep\nMy mental blueprint cannot stay or remain in-\n-SIDE; it hits the downbeat as I step in my stride\nI pace the empty blocks with a disciplined soul\nAnd keep the sixteen dots in complete control\n&quot;,
+  &quot;model&quot;: &quot;yue2_3b_int8_convrot.safetensors&quot;,
+  &quot;backend&quot;: &quot;comfyui-api&quot;,
+  &quot;seed&quot;: 42
+}</pre></details>
+<details><summary>Copied artifacts</summary><ul><li><a href="case-001/request.json" download>request.json</a></li><li><a href="case-001/result.json" download>result.json</a></li></ul></details></article>
+<article><h2>mf_doom_v2</h2><p class="status">needs_review</p>
+<p class="warning">No verified player is available for this case.</p>
+<ul class="warning"><li>Native configuration is unavailable; decoder identity is incomplete</li><li>Native result does not report complete status</li><li>Missing audio.flac/audio.wav; no player available</li></ul>
+<dl><dt>Mode</dt><dd>unknown</dd><dt>Seed</dt><dd>99</dd><dt>Decoder release</dt><dd>unknown</dd><dt>Native status</dt><dd>success</dd><dt>Truncated</dt><dd>unknown</dd><dt>Recorded duration (seconds)</dt><dd>null</dd><dt>Sample rate</dt><dd>null</dd><dt>Runtime validation status</dt><dd>unknown</dd><dt>Result identity</dt><dd>unknown</dd></dl>
+<h3>Style prompt</h3><pre>Underground boom-bap hip-hop, 88 BPM, heavy head-nod drums, steady crisp snare on beats 2 and 4, warm dusty jazz piano loop, deep sub bass, raspy masked male emcee, calm conversational flow, rhyming locked tightly on the beat, MF DOOM style.</pre>
+<h3>Lyrics</h3><pre>[Verse]
+Hunched in the cellar like a dungeon lurker
+Cooking secret venom on a Bunsen burner
+Dusty iron mask and a steady grin
+Pouring liquid zinc from the bottle in
+Drop toxic liquid in, turn the cold dial
+Pop lock-pick, wicked grin, burn the old file
+Cold smile, no denial, make the villain choke
+Vanished in a puffy cloud of steam and smoke
+</pre>
+<details><summary>Artifact integrity checks</summary><pre>{
+  &quot;request.json&quot;: &quot;not listed&quot;,
+  &quot;result.json&quot;: &quot;not listed&quot;
+}</pre></details>
+<details><summary>Full exact request</summary><pre>{
+  &quot;title&quot;: &quot;Mad Science (v2 On-Beat Boom-Bap)&quot;,
+  &quot;artist&quot;: &quot;MF DOOM&quot;,
+  &quot;style&quot;: &quot;Underground boom-bap hip-hop, 88 BPM, heavy head-nod drums, steady crisp snare on beats 2 and 4, warm dusty jazz piano loop, deep sub bass, raspy masked male emcee, calm conversational flow, rhyming locked tightly on the beat, MF DOOM style.&quot;,
+  &quot;lyrics&quot;: &quot;[Verse]\nHunched in the cellar like a dungeon lurker\nCooking secret venom on a Bunsen burner\nDusty iron mask and a steady grin\nPouring liquid zinc from the bottle in\nDrop toxic liquid in, turn the cold dial\nPop lock-pick, wicked grin, burn the old file\nCold smile, no denial, make the villain choke\nVanished in a puffy cloud of steam and smoke\n&quot;,
+  &quot;model&quot;: &quot;yue2_3b_int8_convrot.safetensors&quot;,
+  &quot;backend&quot;: &quot;comfyui-api&quot;,
+  &quot;seed&quot;: 99
+}</pre></details>
+<details><summary>Copied artifacts</summary><ul><li><a href="case-002/request.json" download>request.json</a></li><li><a href="case-002/result.json" download>result.json</a></li></ul></details></article>
+<article><h2>kendrick_v2</h2><p class="status">needs_review</p>
+<p class="warning">No verified player is available for this case.</p>
+<ul class="warning"><li>Native configuration is unavailable; decoder identity is incomplete</li><li>Native result does not report complete status</li><li>Missing audio.flac/audio.wav; no player available</li></ul>
+<dl><dt>Mode</dt><dd>unknown</dd><dt>Seed</dt><dd>104</dd><dt>Decoder release</dt><dd>unknown</dd><dt>Native status</dt><dd>success</dd><dt>Truncated</dt><dd>unknown</dd><dt>Recorded duration (seconds)</dt><dd>null</dd><dt>Sample rate</dt><dd>null</dd><dt>Runtime validation status</dt><dd>unknown</dd><dt>Result identity</dt><dd>unknown</dd></dl>
+<h3>Style prompt</h3><pre>Rigamortus style jazz rap, 92 BPM, live acoustic horn section, sharp marching snare drum on beat 2 and 4, punchy kick, walking upright bass, rhythmic vocal stabs, tight breathless delivery locked precisely to the drum groove, Kendrick Lamar style.</pre>
+<h3>Lyrics</h3><pre>[Verse]
+Break the grip, rip the script, hit the lock
+Pick the lock, redline on the city block
+Carve in stone, flesh and bone, take the throne
+Bear the weight, hold the crown on my own
+Now I decimate the track till they dead and gone
+Leave a veteran in shock like a skeleton
+Knock &#x27;em off the pedestal, raw like an animal
+Cannibal with a flow like a cannonball
+</pre>
+<details><summary>Artifact integrity checks</summary><pre>{
+  &quot;request.json&quot;: &quot;not listed&quot;,
+  &quot;result.json&quot;: &quot;not listed&quot;
+}</pre></details>
+<details><summary>Full exact request</summary><pre>{
+  &quot;title&quot;: &quot;Sovereign Mortus (v2 Tight Motivic Lock)&quot;,
+  &quot;artist&quot;: &quot;Kendrick Lamar&quot;,
+  &quot;style&quot;: &quot;Rigamortus style jazz rap, 92 BPM, live acoustic horn section, sharp marching snare drum on beat 2 and 4, punchy kick, walking upright bass, rhythmic vocal stabs, tight breathless delivery locked precisely to the drum groove, Kendrick Lamar style.&quot;,
+  &quot;lyrics&quot;: &quot;[Verse]\nBreak the grip, rip the script, hit the lock\nPick the lock, redline on the city block\nCarve in stone, flesh and bone, take the throne\nBear the weight, hold the crown on my own\nNow I decimate the track till they dead and gone\nLeave a veteran in shock like a skeleton\nKnock &#x27;em off the pedestal, raw like an animal\nCannibal with a flow like a cannonball\n&quot;,
+  &quot;model&quot;: &quot;yue2_3b_int8_convrot.safetensors&quot;,
+  &quot;backend&quot;: &quot;comfyui-api&quot;,
+  &quot;seed&quot;: 104
+}</pre></details>
+<details><summary>Copied artifacts</summary><ul><li><a href="case-003/request.json" download>request.json</a></li><li><a href="case-003/result.json" download>result.json</a></li></ul></details></article>
+<p><a href="manifest.json">Bundle manifest and SHA-256 hashes</a></p></body></html>

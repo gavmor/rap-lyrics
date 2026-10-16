@@ -1,0 +1,6 @@
+#EXTM3U
+#EXTINF:45,Qwen 3.8 27B - The Midnight Blueprint (Rakim Style)
+audio/qwen38_rakim_midnight.flac
+
+#EXTINF:45,Benchmark - The Midnight Manuscript (v2 Fixed Scansion)
+audio/rakim_midnight_manuscript_v2.flac

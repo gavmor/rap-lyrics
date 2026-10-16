@@ -1,0 +1,14 @@
+{
+  "title": "Mad Science (MF DOOM Style)",
+  "artist": "MF DOOM",
+  "style": "90s underground abstract hip-hop, dusty vinyl crackle, off-kilter jazz sample, heavy lo-fi drums, muffled bass, comic book supervillain aesthetic, raspy masked male emcee, MF DOOM style.",
+  "lyrics": "[Verse]\nHunched inside the cellar like a trusty dungeon lurker\nCooking secret venom on a rusty Bunsen burner\nDusty corner, iron mask, he's plotting for a kill-\n-ING, pouring heavy zinc into a classic Pyrex vial\nDrop toxic liquid in, turn the cold dial\nPop lock-pick, wicked grin, burn the old file\nCold smile, no denial, brew a batch to make the hero choke\nVanished in a puffy cloud of STEAM, burnt the mocha cream\n",
+  "model": "yue2_3b_int8_convrot.safetensors",
+  "backend": "comfyui-api",
+  "sampler": "dpm_2",
+  "scheduler": "sgm_uniform",
+  "steps": 32,
+  "cfg": 1.0,
+  "seed": 99,
+  "max_duration": 45.0
+}

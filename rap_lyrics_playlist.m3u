@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:45,Rakim - The Midnight Manuscript (Golden Age 90 BPM)
+audio/rakim_midnight_manuscript.flac
+
+#EXTINF:45,MF DOOM - Mad Science (Latverian Roast 90 BPM)
+audio/mf_doom_mad_science.flac
+
+#EXTINF:45,Kendrick Lamar - Sovereign Mortus (Rigamortus 104 BPM)
+audio/kendrick_sovereign_mortus.flac

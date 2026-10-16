@@ -1,0 +1,14 @@
+{
+  "title": "Sovereign Mortus (Kendrick Lamar Style)",
+  "artist": "Kendrick Lamar",
+  "style": "Modern energetic jazz-rap, fast acoustic brass and horn section, rapid-fire hi-hats, hard acoustic drums, high-velocity syncopated delivery, Section.80 Rigamortus style, passionate male emcee.",
+  "lyrics": "[Verse]\nCrush systemic pressure, watch me break the grip, they tried to flip the\nSTATUTE, watch me rip the script and pick the lock\nRedline across the city block, we shake the shock and carve in stone\nThey chain the cage, but cannot touch the flesh and bone, I claim the throne and bear the weight\nNow watch me decimate the syndicate and ventilate the venom till they dead and gone, a veteran, a skeleton\nKnock 'em off the pedestal, I morph into an animal, a cannibal, who fire off a cannonball\nAnd tearing up the holy ground, I suffocate the competition, never turn around, resurrect the underground\nThe monument is broken down, I hover far above the ground, reclaim the sovereign crown, amen, A-MEN\n",
+  "model": "yue2_3b_int8_convrot.safetensors",
+  "backend": "comfyui-api",
+  "sampler": "dpm_2",
+  "scheduler": "sgm_uniform",
+  "steps": 32,
+  "cfg": 1.0,
+  "seed": 104,
+  "max_duration": 45.0
+}

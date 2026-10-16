@@ -1,0 +1,47 @@
+{
+  "skill_name": "rap-lyrics",
+  "evals": [
+    {
+      "id": 0,
+      "name": "eval-0-rakim-barline-crossing",
+      "prompt": "Write an 8-bar rap verse in the style of Rakim about the discipline of the craft and navigating the city at midnight. Make sure to use his signature 16-dot grid approach, internal rhymes, multisyllabic rhymes, and explicitly cross the bar line onto Beat 1 of the next bar. Include a breakdown of the techniques and bar structure.",
+      "expected_output": "An 8-bar Rakim-style verse featuring internal rhymes, multisyllabic compound rhymes, explicit enjambment crossing the bar line onto Beat 1 of the subsequent bar, 16-grid flow consistency, and a structural flow deconstruction.",
+      "files": [],
+      "expectations": [
+        "The verse contains exactly 8 numbered bars or measures",
+        "The verse incorporates multisyllabic compound rhymes (2+ syllables matched across words)",
+        "The verse explicitly crosses the bar line with enjambment resolving or landing onto Beat 1 of the next bar",
+        "The verse includes internal rhymes placed within lines before the bar ends",
+        "The output includes a technical deconstruction explaining the barline crossing and rhyme architecture"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "eval-1-mf-doom-holorime-subversion",
+      "prompt": "Write an 8-bar rap verse in the style of MF DOOM with an eccentric supervillain comic-book persona cooking up a secret formula in a dimly lit lab. Feature at least one holorime (where a setup bar rhymes every syllable with the punchline bar), dense multisyllabic rhymes, and a deliberate subversion of a rhyming expectation. Provide a technical breakdown of the rhyme schemes and punchline subversion.",
+      "expected_output": "An 8-bar MF DOOM-style verse featuring a full or near-holorime (line-for-line syllabic identity), dense multisyllabics, an expectation subversion pivoting off a surprise word/rhyme, and a technical breakdown.",
+      "files": [],
+      "expectations": [
+        "The verse contains exactly 8 numbered bars or measures",
+        "The verse contains a holorime or near-holorime where an entire line or multi-word phrase rhymes syllable-for-syllable with another",
+        "The verse executes a deliberate subversion of a rhyming expectation (leading toward an expected rhyme and abruptly twisting to an unexpected word)",
+        "The verse embodies the MF DOOM eccentric supervillain comic-book persona",
+        "The output provides a technical breakdown detailing the holorime and expectation subversion"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "eval-2-kendrick-motivic-gearshift",
+      "prompt": "Write an 8-bar rap verse in the style of Kendrick Lamar's 'Rigamortus' about overcoming systemic pressure and claiming lyrical supremacy. Establish a clear 3-note rhythmic motive (short-short-long cadence) in the first 4 bars, daisy-chain the rhyme families, and then shift into 4th gear (accelerated cadence) in bars 5-8 while maintaining the rhythmic motive. Include a technical flow deconstruction detailing the motive and gear shift.",
+      "expected_output": "An 8-bar Kendrick Lamar verse with a defined 3-note short-short-long rhythmic motive in bars 1-4, daisy-chained rhyme families, an accelerated 4th-gear cadence shift in bars 5-8 that preserves the core motive, and a flow deconstruction.",
+      "files": [],
+      "expectations": [
+        "The verse contains exactly 8 numbered bars or measures",
+        "The verse establishes a clear 3-note rhythmic motive (short-short-long cadence) in bars 1-4",
+        "The verse utilizes daisy-chaining (overlapping rhyme families connecting consecutive lines)",
+        "The verse shifts into 4th gear (accelerated cadence / double-time subdivisions) in bars 5-8 while preserving the rhythmic motive",
+        "The output provides a technical breakdown explaining the motive development and gear shift"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "title": "Llama-3.2-1B: Emperor of Holorime",
+  "artist": "Llama 3.2 1B (MF DOOM Style)",
+  "style": "Underground boom-bap hip-hop, 88 BPM, heavy head-nod drums, steady crisp snare on beats 2 and 4, warm dusty jazz piano loop, deep sub bass, raspy masked male emcee, calm conversational flow, rhyming locked tightly on the beat, MF DOOM style.",
+  "lyrics": "[Verse]\nI'm the Emperor of Holorime, the sultan of despair\nMy throne is made of shattered dreams, my kingdom's a mess in the air\nExpectation's my accomplice, it's my best friend and foe\nWe're colliding in a kaleidoscope of woe\nI'm painting masterpieces with broken glass and tears\nMy art's a commentary on the futility of fears\nI'm a conductor of chaos, orchestrating the fall\nExpectation's the melody, I'm the maestro of despair's call\n",
+  "model": "yue2_3b_int8_convrot.safetensors",
+  "backend": "comfyui-api"
+}

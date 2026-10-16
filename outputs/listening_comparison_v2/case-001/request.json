@@ -1,0 +1,9 @@
+{
+  "title": "The Midnight Manuscript (v2 Fixed Scansion)",
+  "artist": "Rakim",
+  "style": "Classic 90s East Coast boom-bap, steady 90 BPM drum beat, punchy kick and snare on 2 and 4, smooth upright bassline, subtle jazz horn sample, clear authoritative male hip-hop vocals, relaxed flow locked to the beat, Rakim style.",
+  "lyrics": "[Verse]\nI draft the craft in the dark on the page\nAn architect of intellect upon the stage\nI walk the midnight mist where the silence is deep\nAnd sharpen surgical designs while citizens sleep\nMy mental blueprint cannot stay or remain in-\n-SIDE; it hits the downbeat as I step in my stride\nI pace the empty blocks with a disciplined soul\nAnd keep the sixteen dots in complete control\n",
+  "model": "yue2_3b_int8_convrot.safetensors",
+  "backend": "comfyui-api",
+  "seed": 42
+}

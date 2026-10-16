@@ -1,0 +1,191 @@
+{
+  "schema": "yue2-listening-bundle-v1",
+  "cases": [
+    {
+      "label": "rakim",
+      "directory": "case-001",
+      "issues": [
+        "Native configuration is unavailable; decoder identity is incomplete",
+        "Native result does not report complete status",
+        "Missing audio.flac/audio.wav; no player available"
+      ],
+      "files": {
+        "request.json": {
+          "sha256": "cd297a54610c06be4e5aa377cf3c1ac18bac455066501834bc532077fbba2a13",
+          "bytes": 928
+        },
+        "result.json": {
+          "sha256": "b62c42d7d05d1827b404dbe291dba00ec063eac53921a65d1cb86ad39702cf29",
+          "bytes": 212
+        }
+      },
+      "native_artifact_checks": {
+        "request.json": "not listed",
+        "result.json": "not listed"
+      },
+      "audio": null,
+      "request": {
+        "title": "The Midnight Manuscript (Rakim Style)",
+        "artist": "Rakim",
+        "style": "Golden age 90s East Coast hip-hop, boom-bap drums, soulful jazz horn loop, deep bassline, crisp snare, male rap vocals, confident relaxed delivery, Rakim style.",
+        "lyrics": "[Verse]\nI draft the craft after dark, sixteen dots on the page\nAn architect of intellect who plots his thoughts on the stage\nI step into the midnight mist, where the silence is deep\nAnd sharpen surgical designs while the citizens sleep\nWith vision never blind, the manuscript can't be con-\n-FINED; it breaks across the bar, leaving boundaries behind\nI navigate the midnight blocks with a disciplined soul\nAnd hold the sixty-four subdivisions in total control\n",
+        "model": "yue2_3b_int8_convrot.safetensors",
+        "backend": "comfyui-api",
+        "sampler": "dpm_2",
+        "scheduler": "sgm_uniform",
+        "steps": 32,
+        "cfg": 1.0,
+        "seed": 42,
+        "max_duration": 45.0
+      },
+      "decoder_release": "unknown",
+      "weights": {},
+      "identity": "unknown",
+      "loader": {},
+      "native_status": "success",
+      "truncated": "unknown",
+      "audio_seconds": null,
+      "sample_rate": 48000,
+      "validation_status": "unknown",
+      "failure": {},
+      "abc_check": {},
+      "recorded_warnings": {},
+      "status": "needs_review"
+    },
+    {
+      "label": "mf_doom",
+      "directory": "case-002",
+      "issues": [
+        "Native configuration is unavailable; decoder identity is incomplete",
+        "Native result does not report complete status",
+        "Missing audio.flac/audio.wav; no player available"
+      ],
+      "files": {
+        "request.json": {
+          "sha256": "9d09b16e5eccb6859bff099189e8939d50728ba4d715c7ef7533cc40ddf19b54",
+          "bytes": 902
+        },
+        "result.json": {
+          "sha256": "3478c8a99c6cdb07bcb063e510673947fdaefd49ab97e993fa4f156d0695fe07",
+          "bytes": 212
+        }
+      },
+      "native_artifact_checks": {
+        "request.json": "not listed",
+        "result.json": "not listed"
+      },
+      "audio": null,
+      "request": {
+        "title": "Mad Science (MF DOOM Style)",
+        "artist": "MF DOOM",
+        "style": "90s underground abstract hip-hop, dusty vinyl crackle, off-kilter jazz sample, heavy lo-fi drums, muffled bass, comic book supervillain aesthetic, raspy masked male emcee, MF DOOM style.",
+        "lyrics": "[Verse]\nHunched inside the cellar like a trusty dungeon lurker\nCooking secret venom on a rusty Bunsen burner\nDusty corner, iron mask, he's plotting for a kill-\n-ING, pouring heavy zinc into a classic Pyrex vial\nDrop toxic liquid in, turn the cold dial\nPop lock-pick, wicked grin, burn the old file\nCold smile, no denial, brew a batch to make the hero choke\nVanished in a puffy cloud of STEAM, burnt the mocha cream\n",
+        "model": "yue2_3b_int8_convrot.safetensors",
+        "backend": "comfyui-api",
+        "sampler": "dpm_2",
+        "scheduler": "sgm_uniform",
+        "steps": 32,
+        "cfg": 1.0,
+        "seed": 99,
+        "max_duration": 45.0
+      },
+      "decoder_release": "unknown",
+      "weights": {},
+      "identity": "unknown",
+      "loader": {},
+      "native_status": "success",
+      "truncated": "unknown",
+      "audio_seconds": null,
+      "sample_rate": 48000,
+      "validation_status": "unknown",
+      "failure": {},
+      "abc_check": {},
+      "recorded_warnings": {},
+      "status": "needs_review"
+    },
+    {
+      "label": "kendrick",
+      "directory": "case-003",
+      "issues": [
+        "Native configuration is unavailable; decoder identity is incomplete",
+        "Native result does not report complete status",
+        "Missing audio.flac/audio.wav; no player available"
+      ],
+      "files": {
+        "request.json": {
+          "sha256": "9073310125b260538fe0ff2f49de48881b861960d6407c4d212c705adf8a7af4",
+          "bytes": 1214
+        },
+        "result.json": {
+          "sha256": "bdb535ac76cb7695d07fca8264c00d19e7b1901dd0e665b0b5fa1567b809ec5c",
+          "bytes": 212
+        }
+      },
+      "native_artifact_checks": {
+        "request.json": "not listed",
+        "result.json": "not listed"
+      },
+      "audio": null,
+      "request": {
+        "title": "Sovereign Mortus (Kendrick Lamar Style)",
+        "artist": "Kendrick Lamar",
+        "style": "Modern energetic jazz-rap, fast acoustic brass and horn section, rapid-fire hi-hats, hard acoustic drums, high-velocity syncopated delivery, Section.80 Rigamortus style, passionate male emcee.",
+        "lyrics": "[Verse]\nCrush systemic pressure, watch me break the grip, they tried to flip the\nSTATUTE, watch me rip the script and pick the lock\nRedline across the city block, we shake the shock and carve in stone\nThey chain the cage, but cannot touch the flesh and bone, I claim the throne and bear the weight\nNow watch me decimate the syndicate and ventilate the venom till they dead and gone, a veteran, a skeleton\nKnock 'em off the pedestal, I morph into an animal, a cannibal, who fire off a cannonball\nAnd tearing up the holy ground, I suffocate the competition, never turn around, resurrect the underground\nThe monument is broken down, I hover far above the ground, reclaim the sovereign crown, amen, A-MEN\n",
+        "model": "yue2_3b_int8_convrot.safetensors",
+        "backend": "comfyui-api",
+        "sampler": "dpm_2",
+        "scheduler": "sgm_uniform",
+        "steps": 32,
+        "cfg": 1.0,
+        "seed": 104,
+        "max_duration": 45.0
+      },
+      "decoder_release": "unknown",
+      "weights": {},
+      "identity": "unknown",
+      "loader": {},
+      "native_status": "success",
+      "truncated": "unknown",
+      "audio_seconds": null,
+      "sample_rate": 48000,
+      "validation_status": "unknown",
+      "failure": {},
+      "abc_check": {},
+      "recorded_warnings": {},
+      "status": "needs_review"
+    }
+  ],
+  "files": {
+    "case-001/request.json": {
+      "sha256": "cd297a54610c06be4e5aa377cf3c1ac18bac455066501834bc532077fbba2a13",
+      "bytes": 928
+    },
+    "case-001/result.json": {
+      "sha256": "b62c42d7d05d1827b404dbe291dba00ec063eac53921a65d1cb86ad39702cf29",
+      "bytes": 212
+    },
+    "case-002/request.json": {
+      "sha256": "9d09b16e5eccb6859bff099189e8939d50728ba4d715c7ef7533cc40ddf19b54",
+      "bytes": 902
+    },
+    "case-002/result.json": {
+      "sha256": "3478c8a99c6cdb07bcb063e510673947fdaefd49ab97e993fa4f156d0695fe07",
+      "bytes": 212
+    },
+    "case-003/request.json": {
+      "sha256": "9073310125b260538fe0ff2f49de48881b861960d6407c4d212c705adf8a7af4",
+      "bytes": 1214
+    },
+    "case-003/result.json": {
+      "sha256": "bdb535ac76cb7695d07fca8264c00d19e7b1901dd0e665b0b5fa1567b809ec5c",
+      "bytes": 212
+    },
+    "index.html": {
+      "sha256": "07f6a208aca7550bd4d011e753fca0740269bf8a4bfbad2b1142b5ab24b3a578",
+      "bytes": 10897
+    }
+  },
+  "hash_scope": "All copied files and index.html; manifest.json excludes its own recursive hash",
+  "network_access": false,
+  "weights_or_latents_copied": false
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Mad Science (v2 On-Beat Boom-Bap)",
+  "artist": "MF DOOM",
+  "style": "Underground boom-bap hip-hop, 88 BPM, heavy head-nod drums, steady crisp snare on beats 2 and 4, warm dusty jazz piano loop, deep sub bass, raspy masked male emcee, calm conversational flow, rhyming locked tightly on the beat, MF DOOM style.",
+  "lyrics": "[Verse]\nHunched in the cellar like a dungeon lurker\nCooking secret venom on a Bunsen burner\nDusty iron mask and a steady grin\nPouring liquid zinc from the bottle in\nDrop toxic liquid in, turn the cold dial\nPop lock-pick, wicked grin, burn the old file\nCold smile, no denial, make the villain choke\nVanished in a puffy cloud of steam and smoke\n",
+  "model": "yue2_3b_int8_convrot.safetensors",
+  "backend": "comfyui-api",
+  "seed": 99
+}

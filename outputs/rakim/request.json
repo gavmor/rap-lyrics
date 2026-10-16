@@ -1,0 +1,14 @@
+{
+  "title": "The Midnight Manuscript (Rakim Style)",
+  "artist": "Rakim",
+  "style": "Golden age 90s East Coast hip-hop, boom-bap drums, soulful jazz horn loop, deep bassline, crisp snare, male rap vocals, confident relaxed delivery, Rakim style.",
+  "lyrics": "[Verse]\nI draft the craft after dark, sixteen dots on the page\nAn architect of intellect who plots his thoughts on the stage\nI step into the midnight mist, where the silence is deep\nAnd sharpen surgical designs while the citizens sleep\nWith vision never blind, the manuscript can't be con-\n-FINED; it breaks across the bar, leaving boundaries behind\nI navigate the midnight blocks with a disciplined soul\nAnd hold the sixty-four subdivisions in total control\n",
+  "model": "yue2_3b_int8_convrot.safetensors",
+  "backend": "comfyui-api",
+  "sampler": "dpm_2",
+  "scheduler": "sgm_uniform",
+  "steps": 32,
+  "cfg": 1.0,
+  "seed": 42,
+  "max_duration": 45.0
+}

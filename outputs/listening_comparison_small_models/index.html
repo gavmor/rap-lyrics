@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; media-src 'self' file:; base-uri 'none'; form-action 'none'">
+<title>YuE2 listening comparison</title><style>
+body{font:16px/1.5 system-ui,sans-serif;max-width:1100px;margin:36px auto;padding:0 20px;background:#f6f7f9;color:#17212b}
+article{background:white;border:1px solid #d7dee7;border-radius:12px;padding:24px;margin:24px 0}
+h1,h2,h3{line-height:1.2}h2{margin-top:0}audio{width:100%}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.55 ui-monospace,monospace}
+dt{font-weight:650}dd{margin:0 0 10px;overflow-wrap:anywhere}details{border-top:1px solid #d7dee7;padding:12px 0}summary{cursor:pointer;font-weight:600}
+a{color:#174faf}.warning{color:#842b19}.status{font-weight:700}.note{color:#475569}
+</style></head><body><h1>YuE2 listening comparison</h1>
+<p class="note">Local listening bundle. Prompts, lyrics and available score/metadata are copied below.
+Model and decoder signatures identify the recorded generation; no model weights or acoustic latents are included.
+Integrity checks concern copied artifacts only, not musical quality, codec decoding, or a complete regeneration audit.
+Use the download link if your browser does not play the original audio format.</p>
+<article><h2>llama_rakim</h2><p class="status">needs_review</p>
+<p class="warning">No verified player is available for this case.</p>
+<ul class="warning"><li>Native configuration is unavailable; decoder identity is incomplete</li><li>Native result does not report complete status</li><li>Missing audio.flac/audio.wav; no player available</li></ul>
+<dl><dt>Mode</dt><dd>unknown</dd><dt>Seed</dt><dd>unknown</dd><dt>Decoder release</dt><dd>unknown</dd><dt>Native status</dt><dd>success</dd><dt>Truncated</dt><dd>unknown</dd><dt>Recorded duration (seconds)</dt><dd>null</dd><dt>Sample rate</dt><dd>null</dd><dt>Runtime validation status</dt><dd>unknown</dd><dt>Result identity</dt><dd>unknown</dd></dl>
+<h3>Style prompt</h3><pre>Classic 90s East Coast boom-bap, steady 90 BPM drum beat, punchy kick and snare on 2 and 4, smooth upright bassline, subtle jazz horn sample, clear authoritative male hip-hop vocals, relaxed flow locked to the beat, Rakim style.</pre>
+<h3>Lyrics</h3><pre>[Verse]
+I&#x27;m walking down midnight streets, where the city&#x27;s alive
+The neon lights reflect, on my black and grey ride
+I&#x27;m the king of the night, with my thoughts on my mind
+The darkness surrounds me, but I&#x27;m feeling so divine
+I&#x27;m crossing the barline, where the street meets the sea
+My rhymes are like waves, crashing on the concrete spree
+I&#x27;m the master of the flow, like a phantom in the night
+My verse is a journey, through the city&#x27;s twisted delight
+</pre>
+<details><summary>Artifact integrity checks</summary><pre>{
+  &quot;request.json&quot;: &quot;not listed&quot;,
+  &quot;result.json&quot;: &quot;not listed&quot;
+}</pre></details>
+<details><summary>Full exact request</summary><pre>{
+  &quot;title&quot;: &quot;Llama-3.2-1B: Crossing the Barline&quot;,
+  &quot;artist&quot;: &quot;Llama 3.2 1B (Rakim Style)&quot;,
+  &quot;style&quot;: &quot;Classic 90s East Coast boom-bap, steady 90 BPM drum beat, punchy kick and snare on 2 and 4, smooth upright bassline, subtle jazz horn sample, clear authoritative male hip-hop vocals, relaxed flow locked to the beat, Rakim style.&quot;,
+  &quot;lyrics&quot;: &quot;[Verse]\nI&#x27;m walking down midnight streets, where the city&#x27;s alive\nThe neon lights reflect, on my black and grey ride\nI&#x27;m the king of the night, with my thoughts on my mind\nThe darkness surrounds me, but I&#x27;m feeling so divine\nI&#x27;m crossing the barline, where the street meets the sea\nMy rhymes are like waves, crashing on the concrete spree\nI&#x27;m the master of the flow, like a phantom in the night\nMy verse is a journey, through the city&#x27;s twisted delight\n&quot;,
+  &quot;model&quot;: &quot;yue2_3b_int8_convrot.safetensors&quot;,
+  &quot;backend&quot;: &quot;comfyui-api&quot;
+}</pre></details>
+<details><summary>Copied artifacts</summary><ul><li><a href="case-001/request.json" download>request.json</a></li><li><a href="case-001/result.json" download>result.json</a></li></ul></details></article>
+<article><h2>llama_doom</h2><p class="status">needs_review</p>
+<p class="warning">No verified player is available for this case.</p>
+<ul class="warning"><li>Native configuration is unavailable; decoder identity is incomplete</li><li>Native result does not report complete status</li><li>Missing audio.flac/audio.wav; no player available</li></ul>
+<dl><dt>Mode</dt><dd>unknown</dd><dt>Seed</dt><dd>unknown</dd><dt>Decoder release</dt><dd>unknown</dd><dt>Native status</dt><dd>success</dd><dt>Truncated</dt><dd>unknown</dd><dt>Recorded duration (seconds)</dt><dd>null</dd><dt>Sample rate</dt><dd>null</dd><dt>Runtime validation status</dt><dd>unknown</dd><dt>Result identity</dt><dd>unknown</dd></dl>
+<h3>Style prompt</h3><pre>Underground boom-bap hip-hop, 88 BPM, heavy head-nod drums, steady crisp snare on beats 2 and 4, warm dusty jazz piano loop, deep sub bass, raspy masked male emcee, calm conversational flow, rhyming locked tightly on the beat, MF DOOM style.</pre>
+<h3>Lyrics</h3><pre>[Verse]
+I&#x27;m the Emperor of Holorime, the sultan of despair
+My throne is made of shattered dreams, my kingdom&#x27;s a mess in the air
+Expectation&#x27;s my accomplice, it&#x27;s my best friend and foe
+We&#x27;re colliding in a kaleidoscope of woe
+I&#x27;m painting masterpieces with broken glass and tears
+My art&#x27;s a commentary on the futility of fears
+I&#x27;m a conductor of chaos, orchestrating the fall
+Expectation&#x27;s the melody, I&#x27;m the maestro of despair&#x27;s call
+</pre>
+<details><summary>Artifact integrity checks</summary><pre>{
+  &quot;request.json&quot;: &quot;not listed&quot;,
+  &quot;result.json&quot;: &quot;not listed&quot;
+}</pre></details>
+<details><summary>Full exact request</summary><pre>{
+  &quot;title&quot;: &quot;Llama-3.2-1B: Emperor of Holorime&quot;,
+  &quot;artist&quot;: &quot;Llama 3.2 1B (MF DOOM Style)&quot;,
+  &quot;style&quot;: &quot;Underground boom-bap hip-hop, 88 BPM, heavy head-nod drums, steady crisp snare on beats 2 and 4, warm dusty jazz piano loop, deep sub bass, raspy masked male emcee, calm conversational flow, rhyming locked tightly on the beat, MF DOOM style.&quot;,
+  &quot;lyrics&quot;: &quot;[Verse]\nI&#x27;m the Emperor of Holorime, the sultan of despair\nMy throne is made of shattered dreams, my kingdom&#x27;s a mess in the air\nExpectation&#x27;s my accomplice, it&#x27;s my best friend and foe\nWe&#x27;re colliding in a kaleidoscope of woe\nI&#x27;m painting masterpieces with broken glass and tears\nMy art&#x27;s a commentary on the futility of fears\nI&#x27;m a conductor of chaos, orchestrating the fall\nExpectation&#x27;s the melody, I&#x27;m the maestro of despair&#x27;s call\n&quot;,
+  &quot;model&quot;: &quot;yue2_3b_int8_convrot.safetensors&quot;,
+  &quot;backend&quot;: &quot;comfyui-api&quot;
+}</pre></details>
+<details><summary>Copied artifacts</summary><ul><li><a href="case-002/request.json" download>request.json</a></li><li><a href="case-002/result.json" download>result.json</a></li></ul></details></article>
+<article><h2>qwen_rakim</h2><p class="status">needs_review</p>
+<p class="warning">No verified player is available for this case.</p>
+<ul class="warning"><li>Native configuration is unavailable; decoder identity is incomplete</li><li>Native result does not report complete status</li><li>Missing audio.flac/audio.wav; no player available</li></ul>
+<dl><dt>Mode</dt><dd>unknown</dd><dt>Seed</dt><dd>unknown</dd><dt>Decoder release</dt><dd>unknown</dd><dt>Native status</dt><dd>success</dd><dt>Truncated</dt><dd>unknown</dd><dt>Recorded duration (seconds)</dt><dd>null</dd><dt>Sample rate</dt><dd>null</dd><dt>Runtime validation status</dt><dd>unknown</dd><dt>Result identity</dt><dd>unknown</dd></dl>
+<h3>Style prompt</h3><pre>Classic 90s East Coast boom-bap, steady 90 BPM drum beat, punchy kick and snare on 2 and 4, smooth upright bassline, subtle jazz horn sample, clear authoritative male hip-hop vocals, relaxed flow locked to the beat, Rakim style.</pre>
+<h3>Lyrics</h3><pre>[Verse]
+Midnight streets of the city, where lights are bright
+Rap culture is rising, but it&#x27;s hard to keep up
+Midnight streets, the best streets to be
+Rakim, king of the streets
+This is the rhythm, we go on
+Rakim in the streets, he&#x27;s a king
+Midnight streets of the city, where lights are bright
+Rap culture is rising, and it&#x27;s hard to keep up
+</pre>
+<details><summary>Artifact integrity checks</summary><pre>{
+  &quot;request.json&quot;: &quot;not listed&quot;,
+  &quot;result.json&quot;: &quot;not listed&quot;
+}</pre></details>
+<details><summary>Full exact request</summary><pre>{
+  &quot;title&quot;: &quot;Qwen-3-VL-2B: King of the Streets&quot;,
+  &quot;artist&quot;: &quot;Qwen 3 VL 2B (Rakim Style)&quot;,
+  &quot;style&quot;: &quot;Classic 90s East Coast boom-bap, steady 90 BPM drum beat, punchy kick and snare on 2 and 4, smooth upright bassline, subtle jazz horn sample, clear authoritative male hip-hop vocals, relaxed flow locked to the beat, Rakim style.&quot;,
+  &quot;lyrics&quot;: &quot;[Verse]\nMidnight streets of the city, where lights are bright\nRap culture is rising, but it&#x27;s hard to keep up\nMidnight streets, the best streets to be\nRakim, king of the streets\nThis is the rhythm, we go on\nRakim in the streets, he&#x27;s a king\nMidnight streets of the city, where lights are bright\nRap culture is rising, and it&#x27;s hard to keep up\n&quot;,
+  &quot;model&quot;: &quot;yue2_3b_int8_convrot.safetensors&quot;,
+  &quot;backend&quot;: &quot;comfyui-api&quot;
+}</pre></details>
+<details><summary>Copied artifacts</summary><ul><li><a href="case-003/request.json" download>request.json</a></li><li><a href="case-003/result.json" download>result.json</a></li></ul></details></article>
+<p><a href="manifest.json">Bundle manifest and SHA-256 hashes</a></p></body></html>

@@ -1,0 +1,1 @@
+{"input": "Say hello in 2 words", "actual_output": "Hello there", "tools_called": [], "additional_metadata": {"session_id": "fabffb60550e", "timestamp": "2026-10-16T02:02:19.771536+00:00", "agent": "traced_agno", "mcp_server": "standalone", "skills_active": []}}

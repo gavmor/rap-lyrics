@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "skills": {
+    "yue2-music": {
+      "source": "multimodal-art-projection/YuE",
+      "ref": "main",
+      "sourceType": "github",
+      "skillPath": "skills/yue2-music/SKILL.md",
+      "computedHash": "ed001d0a88fb38eabff3913b8a1eb0bb3df82ba5cb8fb3959592cdbb02256017"
+    }
+  }
+}

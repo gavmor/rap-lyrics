@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+  <title>Rap Lyrics Deconstructed - YuE2 Audio Generations</title>
+  <trackList>
+    <track>
+      <location>file:///home/user/Documents/rap-lyrics/audio/rakim_midnight_manuscript.flac</location>
+      <title>The Midnight Manuscript</title>
+      <creator>Rakim (Style Profile)</creator>
+      <annotation>16-dot grid, internal rhymes, barline crossing onto Beat 1</annotation>
+      <duration>45000</duration>
+    </track>
+    <track>
+      <location>file:///home/user/Documents/rap-lyrics/audio/mf_doom_mad_science.flac</location>
+      <title>Mad Science (Latverian Roast)</title>
+      <creator>MF DOOM (Style Profile)</creator>
+      <annotation>11-syllable holorime, expectation subversion pivot</annotation>
+      <duration>45000</duration>
+    </track>
+    <track>
+      <location>file:///home/user/Documents/rap-lyrics/audio/kendrick_sovereign_mortus.flac</location>
+      <title>Sovereign Mortus</title>
+      <creator>Kendrick Lamar (Style Profile)</creator>
+      <annotation>3-note motive, daisy-chaining, 4th-gear double-time acceleration</annotation>
+      <duration>45000</duration>
+    </track>
+  </trackList>
+</playlist>

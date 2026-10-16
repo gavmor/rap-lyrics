@@ -1,0 +1,9 @@
+{
+  "title": "Sovereign Mortus (v2 Tight Motivic Lock)",
+  "artist": "Kendrick Lamar",
+  "style": "Rigamortus style jazz rap, 92 BPM, live acoustic horn section, sharp marching snare drum on beat 2 and 4, punchy kick, walking upright bass, rhythmic vocal stabs, tight breathless delivery locked precisely to the drum groove, Kendrick Lamar style.",
+  "lyrics": "[Verse]\nBreak the grip, rip the script, hit the lock\nPick the lock, redline on the city block\nCarve in stone, flesh and bone, take the throne\nBear the weight, hold the crown on my own\nNow I decimate the track till they dead and gone\nLeave a veteran in shock like a skeleton\nKnock 'em off the pedestal, raw like an animal\nCannibal with a flow like a cannonball\n",
+  "model": "yue2_3b_int8_convrot.safetensors",
+  "backend": "comfyui-api",
+  "seed": 104
+}

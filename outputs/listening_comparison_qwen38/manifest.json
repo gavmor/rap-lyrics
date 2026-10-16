@@ -1,0 +1,121 @@
+{
+  "schema": "yue2-listening-bundle-v1",
+  "cases": [
+    {
+      "label": "rakim_v2",
+      "directory": "case-001",
+      "issues": [
+        "Native configuration is unavailable; decoder identity is incomplete",
+        "Native result does not report complete status",
+        "Missing audio.flac/audio.wav; no player available"
+      ],
+      "files": {
+        "request.json": {
+          "sha256": "4061e249bd7676d3304a603a20f2df1bcfe611e76011fe1b4f299add54e84459",
+          "bytes": 821
+        },
+        "result.json": {
+          "sha256": "e75fabfba2c8cef974d552c30585ec9f139b05d15ba57a665ebfe16e78aaccf0",
+          "bytes": 88
+        }
+      },
+      "native_artifact_checks": {
+        "request.json": "not listed",
+        "result.json": "not listed"
+      },
+      "audio": null,
+      "request": {
+        "title": "The Midnight Manuscript (v2 Fixed Scansion)",
+        "artist": "Rakim",
+        "style": "Classic 90s East Coast boom-bap, steady 90 BPM drum beat, punchy kick and snare on 2 and 4, smooth upright bassline, subtle jazz horn sample, clear authoritative male hip-hop vocals, relaxed flow locked to the beat, Rakim style.",
+        "lyrics": "[Verse]\nI draft the craft in the dark on the page\nAn architect of intellect upon the stage\nI walk the midnight mist where the silence is deep\nAnd sharpen surgical designs while citizens sleep\nMy mental blueprint cannot stay or remain in-\n-SIDE; it hits the downbeat as I step in my stride\nI pace the empty blocks with a disciplined soul\nAnd keep the sixteen dots in complete control\n",
+        "model": "yue2_3b_int8_convrot.safetensors",
+        "backend": "comfyui-api",
+        "seed": 42
+      },
+      "decoder_release": "unknown",
+      "weights": {},
+      "identity": "unknown",
+      "loader": {},
+      "native_status": "success",
+      "truncated": "unknown",
+      "audio_seconds": null,
+      "sample_rate": null,
+      "validation_status": "unknown",
+      "failure": {},
+      "abc_check": {},
+      "recorded_warnings": {},
+      "status": "needs_review"
+    },
+    {
+      "label": "qwen38_rakim",
+      "directory": "case-002",
+      "issues": [
+        "Native configuration is unavailable; decoder identity is incomplete",
+        "Native result does not report complete status",
+        "Missing audio.flac/audio.wav; no player available"
+      ],
+      "files": {
+        "request.json": {
+          "sha256": "444beca7f479e46abbe7fb65f55f6fd1962efc4b082facc8cbf46c760986c20e",
+          "bytes": 890
+        },
+        "result.json": {
+          "sha256": "e75fabfba2c8cef974d552c30585ec9f139b05d15ba57a665ebfe16e78aaccf0",
+          "bytes": 88
+        }
+      },
+      "native_artifact_checks": {
+        "request.json": "not listed",
+        "result.json": "not listed"
+      },
+      "audio": null,
+      "request": {
+        "title": "The Midnight Blueprint (Qwen 3.8 27B Verse)",
+        "artist": "Qwen 3.8 27B (Rakim Style)",
+        "style": "Classic 90s East Coast boom-bap, steady 90 BPM drum beat, punchy kick and snare on 2 and 4, smooth upright bassline, subtle jazz horn sample, clear authoritative male hip-hop vocals, relaxed flow locked to the beat, Rakim style.",
+        "lyrics": "[Verse]\nMidnight on the streets, the streetlights hum a minor key\nConcrete underfoot, I’m a ghost with the poetry\nSodium glow, cold breath, the city keeps its secrets\nEvery alley is a page, I write the nights in letters\nNo clock, no crowd, just the rhythm in my footsteps\nMoonlight on the pavement, thoughts that never stop us\nWalk through the silence, let the silence do the talking\nMidnight understands the words before I’m speaking\n",
+        "model": "yue2_3b_int8_convrot.safetensors",
+        "backend": "comfyui-api"
+      },
+      "decoder_release": "unknown",
+      "weights": {},
+      "identity": "unknown",
+      "loader": {},
+      "native_status": "success",
+      "truncated": "unknown",
+      "audio_seconds": null,
+      "sample_rate": null,
+      "validation_status": "unknown",
+      "failure": {},
+      "abc_check": {},
+      "recorded_warnings": {},
+      "status": "needs_review"
+    }
+  ],
+  "files": {
+    "case-001/request.json": {
+      "sha256": "4061e249bd7676d3304a603a20f2df1bcfe611e76011fe1b4f299add54e84459",
+      "bytes": 821
+    },
+    "case-001/result.json": {
+      "sha256": "e75fabfba2c8cef974d552c30585ec9f139b05d15ba57a665ebfe16e78aaccf0",
+      "bytes": 88
+    },
+    "case-002/request.json": {
+      "sha256": "444beca7f479e46abbe7fb65f55f6fd1962efc4b082facc8cbf46c760986c20e",
+      "bytes": 890
+    },
+    "case-002/result.json": {
+      "sha256": "e75fabfba2c8cef974d552c30585ec9f139b05d15ba57a665ebfe16e78aaccf0",
+      "bytes": 88
+    },
+    "index.html": {
+      "sha256": "4a791d1239a8e6f9926ede0b2db89c2efcd68588d9c6734625cd8c268446db57",
+      "bytes": 7148
+    }
+  },
+  "hash_scope": "All copied files and index.html; manifest.json excludes its own recursive hash",
+  "network_access": false,
+  "weights_or_latents_copied": false
+}

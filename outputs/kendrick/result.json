@@ -1,0 +1,9 @@
+{
+  "status": "success",
+  "prompt_id": "a4acddeb-f538-4380-9ada-4224e8fb9653",
+  "duration_seconds": 45.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "format": "flac / mp3",
+  "model": "YuE2 3B (int8 convrot)"
+}

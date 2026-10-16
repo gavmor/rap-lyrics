@@ -1,0 +1,8 @@
+{
+  "title": "Qwen-3-VL-2B: King of the Streets",
+  "artist": "Qwen 3 VL 2B (Rakim Style)",
+  "style": "Classic 90s East Coast boom-bap, steady 90 BPM drum beat, punchy kick and snare on 2 and 4, smooth upright bassline, subtle jazz horn sample, clear authoritative male hip-hop vocals, relaxed flow locked to the beat, Rakim style.",
+  "lyrics": "[Verse]\nMidnight streets of the city, where lights are bright\nRap culture is rising, but it's hard to keep up\nMidnight streets, the best streets to be\nRakim, king of the streets\nThis is the rhythm, we go on\nRakim in the streets, he's a king\nMidnight streets of the city, where lights are bright\nRap culture is rising, and it's hard to keep up\n",
+  "model": "yue2_3b_int8_convrot.safetensors",
+  "backend": "comfyui-api"
+}

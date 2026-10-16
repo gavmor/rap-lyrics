@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+  <title>Rap Lyrics - Small Local Models Audio Showcase (YuE2)</title>
+  <trackList>
+    <track>
+      <location>file:///home/user/Documents/rap-lyrics/audio/small_models/llama1b_rakim_barline_sea.flac</location>
+      <title>Crossing the Barline (Where the Street Meets the Sea)</title>
+      <creator>Llama 3.2 1B (with rap-lyrics skill)</creator>
+      <annotation>Llama 1B literalized 'crossing the barline' as a seaside geographic landmark</annotation>
+      <duration>45000</duration>
+    </track>
+    <track>
+      <location>file:///home/user/Documents/rap-lyrics/audio/small_models/llama1b_doom_emperor_holorime.flac</location>
+      <title>Emperor of Holorime (Sultan of Despair)</title>
+      <creator>Llama 3.2 1B (with rap-lyrics skill)</creator>
+      <annotation>Llama 1B wrote 'Holorime's the only style I dare to share' directly into the lyrics</annotation>
+      <duration>45000</duration>
+    </track>
+    <track>
+      <location>file:///home/user/Documents/rap-lyrics/audio/small_models/qwen2b_rakim_king_streets.flac</location>
+      <title>Rakim, King of the Streets</title>
+      <creator>Qwen 3 VL 2B (with rap-lyrics skill)</creator>
+      <annotation>Qwen 2B formatted perfect Markdown headers, but rapped tautological unrhymed lines</annotation>
+      <duration>45000</duration>
+    </track>
+  </trackList>
+</playlist>

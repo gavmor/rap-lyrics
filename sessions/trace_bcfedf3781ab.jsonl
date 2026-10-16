@@ -1,0 +1,1 @@
+{"input": "Say hello in 2 words", "actual_output": "</answer>\n\nHello", "tools_called": [], "additional_metadata": {"session_id": "bcfedf3781ab", "timestamp": "2026-10-16T02:02:05.692849+00:00", "agent": "traced_agno", "mcp_server": "standalone", "skills_active": ["rap-lyrics"]}}

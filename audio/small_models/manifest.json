@@ -1,0 +1,26 @@
+[
+  {
+    "id": "llama1b_rakim_barline_sea",
+    "title": "Llama-3.2-1B: 'Crossing the Barline (Where Street Meets the Sea)'",
+    "model_author": "Llama 3.2 1B",
+    "flac": "/home/user/Documents/rap-lyrics/audio/small_models/llama1b_rakim_barline_sea.flac",
+    "mp3": "/home/user/Documents/rap-lyrics/audio/small_models/llama1b_rakim_barline_sea.mp3",
+    "lyrics": "[Verse]\nI'm walking down midnight streets, where the city's alive\nThe neon lights reflect, on my black and grey ride\nI'm the king of the night, with my thoughts on my mind\nThe darkness surrounds me, but I'm feeling so divine\nI'm crossing the barline, where the street meets the sea\nMy rhymes are like waves, crashing on the concrete spree\nI'm the master of the flow, like a phantom in the night\nMy verse is a journey, through the city's twisted delight\n"
+  },
+  {
+    "id": "llama1b_doom_emperor_holorime",
+    "title": "Llama-3.2-1B: 'Emperor of Holorime'",
+    "model_author": "Llama 3.2 1B",
+    "flac": "/home/user/Documents/rap-lyrics/audio/small_models/llama1b_doom_emperor_holorime.flac",
+    "mp3": "/home/user/Documents/rap-lyrics/audio/small_models/llama1b_doom_emperor_holorime.mp3",
+    "lyrics": "[Verse]\nI'm the Emperor of Holorime, the sultan of despair\nMy throne is made of shattered dreams, my kingdom's a mess in the air\nExpectation's my accomplice, it's my best friend and foe\nWe're colliding in a kaleidoscope of woe\nI'm painting masterpieces with broken glass and tears\nMy art's a commentary on the futility of fears\nI'm a conductor of chaos, orchestrating the fall\nExpectation's the melody, I'm the maestro of despair's call\n"
+  },
+  {
+    "id": "qwen2b_rakim_king_streets",
+    "title": "Qwen-3-VL-2B: 'Rakim, King of the Streets'",
+    "model_author": "Qwen 3 VL 2B",
+    "flac": "/home/user/Documents/rap-lyrics/audio/small_models/qwen2b_rakim_king_streets.flac",
+    "mp3": "/home/user/Documents/rap-lyrics/audio/small_models/qwen2b_rakim_king_streets.mp3",
+    "lyrics": "[Verse]\nMidnight streets of the city, where lights are bright\nRap culture is rising, but it's hard to keep up\nMidnight streets, the best streets to be\nRakim, king of the streets\nThis is the rhythm, we go on\nRakim in the streets, he's a king\nMidnight streets of the city, where lights are bright\nRap culture is rising, and it's hard to keep up\n"
+  }
+]

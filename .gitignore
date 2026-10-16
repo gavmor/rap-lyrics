@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+.venv/
+.env
+review_iteration_*.html
+rap-lyrics-workspace
+.worktrees/
+
+# Agent runtime caches
+.agents/
+.claude/
+.crush/
+.hermes/
